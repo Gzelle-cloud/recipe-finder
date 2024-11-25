@@ -16,8 +16,7 @@ function ShowRecipes({label, image, calories, ingredients, cuisine, url}) {
           
           <ul className="container list">
             {ingredients.map((ingredient, id) => (
-              <li key={id}>
-                {/* <img src="https://img.icons8.com/external-kiranshastry-gradient-kiranshastry/64/000000/external-check-multimedia-kiranshastry-gradient-kiranshastry.png" alt="icon" className="icon"/> */}
+              <li key={id}>                
                 {ingredient}
               </li>
             ))}
