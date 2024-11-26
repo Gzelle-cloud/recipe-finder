@@ -24,7 +24,7 @@ function ShowRecipes({label, image, calories, ingredients, cuisine, url}) {
         
       </div>
       <div className="container">
-        <a href={url} target="_blank">Go to source page</a>
+        <a href={url} target="_blank" rel="noreferrer">Go to source page</a>
       </div>     
 
     </div>
