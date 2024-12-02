@@ -1,3 +1,5 @@
+import video from "./video.mp4";
+
 function Home() {
   return(
     <div>
@@ -19,7 +21,7 @@ function Home() {
       </div>
 
       <video autoPlay muted loop>    
-        <source src="https://videocdn.cdnpk.net/videos/717f5b08-2c8b-4e23-b09c-1d20d58d587c/horizontal/previews/clear/large.mp4?token=exp=1732555313~hmac=ff88914f23b46562aa9c69acb5e5e77d9b0d69b558059e6c2d0f1d1455025121" type="video/mp4" />    
+        <source src={ video } type="video/mp4" />    
       </video>
       
     </div>
