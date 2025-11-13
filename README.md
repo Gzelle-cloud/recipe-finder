@@ -1,5 +1,5 @@
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Read+before+start)](https://git.io/typing-svg)
-# TastyMatch 🍳
+# Recipe Finder TastyMatch 🍳
 
 TastyMatch is a **Recipe Finder** web application that helps users discover recipes based on the ingredients they have at home. Enter what’s in your pantry, and TastyMatch will find delicious recipes that match. Perfect for reducing food waste and exploring new dishes!
 
