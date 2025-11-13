@@ -1,71 +1,70 @@
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Read+before+start)](https://git.io/typing-svg)
-# Getting Started with Create React App
+# TastyMatch 🍳
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+TastyMatch is a **Recipe Finder** web application that helps users discover recipes based on the ingredients they have at home. Enter what’s in your pantry, and TastyMatch will find delicious recipes that match. Perfect for reducing food waste and exploring new dishes!
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Demo
 
-### `npm start`
+Live demo: [TastyMatch App](https://tastymatch.netlify.app/) 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+- Search recipes by ingredients
+- Display recipe details: name, calories, cuisine type, ingredients, and image
+- Link to original recipe source
+- Responsive design for desktop and mobile
+- Home page with highlights and benefits of using the app
+- Background video for enhanced visual appeal
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## Technologies Used
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Frontend:** React, JavaScript, CSS3, HTML5
+- **Routing:** React Router
+- **API:** Edamam Recipe API
+- **Icons:** Icons8
+- **Video Integration:** HTML5 `<video>` tag for background video
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Installation
 
-### `npm run eject`
+1. Clone the repository:
+   ```bash
+   git clone <repo-url>
+   ```
+2. Navigate to the project folder:
+   ```bash
+   cd tasty-match
+   ```
+3. Navigate to the project folder:
+   ```bash
+   npm install
+   ```
+4. Navigate to the project folder:
+   ```bash
+   npm start
+   ```
+## Usage
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Navigate to the Recipes page.
+- Enter ingredients you have at home in the search bar.
+- Click Find recipes.
+- Browse the results, see recipe details, and visit the source page for full instructions.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Contributing
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Fork the repository.
+- Create a feature branch: git checkout -b feature-name
+- Commit your changes: git commit -m "Add feature"
+- Push to the branch: git push origin feature-name
+- Open a Pull Request.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## License
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is open-source and available under the MIT License.
